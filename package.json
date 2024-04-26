@@ -1,11 +1,19 @@
 {
-  "name": "Streamlit Railway App",
-  "description": "An app for railway information built with Streamlit.",
-  "dependencies": {
-    "streamlit": "^1.0.0"
-  },
+  "name": "Streamlit_Railway_App",
+  "description": "Real-time Gesture Recognition with Streamlit for Railway",
   "scripts": {
-    "start": "streamlit run app.py"
+    "start": "streamlit run app.py",
+    "install": "pip install -r requirements.txt"
   },
-  "main": "app.py"
+  "dependencies": {
+    "streamlit": "^0.86.0",
+    "opencv-python-headless": "^4.5.3.56",
+    "cvzone": "^1.5.0",
+    "numpy": "^1.21.2"
+  },
+  "main": "app.py",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repository"
+  }
 }
