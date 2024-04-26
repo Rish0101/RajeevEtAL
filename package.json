@@ -1,0 +1,11 @@
+{
+  "name": "Streamlit Railway App",
+  "description": "An app for railway information built with Streamlit.",
+  "dependencies": {
+    "streamlit": "^1.0.0"
+  },
+  "scripts": {
+    "start": "streamlit run app.py"
+  },
+  "main": "app.py"
+}
